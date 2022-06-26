@@ -1,0 +1,59 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'YouSheBiaoTiHei';
+    src: url('../fonts/YouSheBiaoTiHei-2.ttf');
+}
+
+.wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('../images/room.png') no-repeat center center;
+    background-size: 100% auto;
+    overflow: hidden;
+}
+
+.wrap-base {
+    position: absolute;
+    top: 50%;
+    width: 104%;
+    transform: translate(-4%, -24%);
+}
+
+.wrap-base img {
+    width: 100%;
+    height: auto;
+}
+
+#container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mui-bar {
+    position: relative;
+    height: 56px;
+    background: transparent;
+    box-shadow: none;
+}
+
+.mui-title {
+    top: 8px;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.mui-icon {
+    color: #FFFFFF;
+    line-height: 44px;
+}

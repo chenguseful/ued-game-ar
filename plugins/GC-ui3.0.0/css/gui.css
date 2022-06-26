@@ -1,0 +1,13 @@
+/**
+ @Author：UED
+ @Version：GC-ui 3.0.0
+ @Description：Web前端组件库
+ @Site：http://60.174.249.206:11080
+ */
+@charset "UTF-8";
+@import url(./styles/animate.css);
+@import url(./layui.css);
+@import url(../font/guifonts/iconfont.css);
+@import url(./base/gui_reset.css);
+@import url(./base/color.css);
+@import url(./base/size.css);

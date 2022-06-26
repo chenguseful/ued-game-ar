@@ -1,0 +1,94 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'YouSheBiaoTiHei';
+    src: url('../fonts/YouSheBiaoTiHei-2.ttf');
+}
+
+.wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.wrap video {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    border: none;
+    object-fit: cover;
+}
+
+#container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mui-bar {
+    position: relative;
+    height: 56px;
+    background: transparent;
+    box-shadow: none;
+}
+
+.mui-title {
+    top: 8px;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.mui-icon {
+    color: #FFFFFF;
+    line-height: 44px;
+}
+
+.load-line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    background: url('../images/circle.png') no-repeat center center;
+    background-size: 40% 40%;
+    opacity: 0.48;
+}
+
+.load-line::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/rotate.png') no-repeat top left 44%;
+    background-size: 82% auto;
+    animation: rotate 1s infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateZ(0);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+
+}
+
+#xc {
+    width: 64%;
+    height: auto;
+}

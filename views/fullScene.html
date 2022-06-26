@@ -1,0 +1,45 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1,minimun-scale=1,maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telphone=no, email=no" />
+    <title>国创AR大冒险</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../plugins/GC-ui3.0.0/css/gui.css">
+    <link rel="stylesheet" type="text/css" href="../plugins/mui/css/mui.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/fullScene.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div id="container"></div>
+        <header id="header" class="mui-bar mui-bar-nav">
+            <a class="mui-action-back mui-icon mui-icon-arrowleft"></a>
+            <h1 class="mui-title">国创AR大冒险</h1>
+        </header>
+        <div class="full-point" id="point-1">感恩利他</div>
+    </div>
+    <script src="../plugins/jquery-1.10.2.min.js"></script>
+    <script src="../plugins/GC-ui3.0.0/gui.js"></script>
+    <script src="../plugins/mui/js/mui.min.js"></script>
+    <script type="module" src="../js/option.js"></script>
+    <script type="module" src="../js/fs-3d.js"></script>
+    <script type="module">
+        /**
+         * 加载全景图
+         * window.loadFullScene(url)
+         * url：全景图位置
+        */
+        window.loadFullScene('../images/hall.jpg')
+        /**
+         * 加载全景图点击标识
+         * window.loadText(id, position)
+         * id：对应dom的id
+         * position：数组，xyz轴坐标
+        */
+        window.loadText('point-1', [0, 0, -20])
+    </script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>

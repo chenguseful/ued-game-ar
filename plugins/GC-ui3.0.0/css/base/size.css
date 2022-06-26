@@ -1,0 +1,736 @@
+@charset "UTF-8";
+/**
+ @Author：UED
+ @Version：GC-ui 3.0.0
+ @Description：Web前端组件库
+ @Site：http://60.174.249.206:11080
+ */
+.layui-btn {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 16px;
+}
+
+.layui-btn-lg {
+  height: 48px;
+  line-height: 48px;
+}
+
+.layui-btn-sm {
+  height: 32px;
+  line-height: 32px;
+  padding: 0 8px;
+}
+
+.layui-btn-xs {
+  height: 24px;
+  line-height: 24px;
+  padding: 0 8px;
+}
+
+.layui-input, .layui-select, .layui-textarea {
+  height: 40px;
+  line-height: 40px;
+  padding-left: 8px;
+}
+
+.layui-textarea {
+  line-height: 24px;
+  padding: 8px;
+}
+
+.layui-form-label {
+  width: 78px;
+  padding: 8px 16px;
+  line-height: 24px;
+}
+
+.layui-form-mid {
+  padding: 8px 0 !important;
+  line-height: 24px;
+}
+
+.layui-input-block {
+  min-height: 40px;
+}
+
+.layui-form-pane .layui-form-label {
+  height: 40px;
+  padding: 8px 16px;
+  line-height: 24px;
+}
+
+.layui-form-pane .layui-form-radio, .layui-form-pane .layui-form-switch {
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.layui-form-radio {
+  line-height: 24px;
+  margin: 8px 8px 0 0;
+  padding-right: 8px;
+}
+
+.layui-laydate {
+  margin: 4px 0 !important;
+}
+
+.layui-form-select dl dd, .layui-form-select dl dt {
+  padding: 0 8px;
+  line-height: 32px;
+}
+
+.layui-form-select dl dd.layui-select-tips {
+  padding-left: 8px !important;
+}
+
+.layui-form-select dl {
+  top: 44px;
+  padding: 8px 0;
+}
+
+.layui-form-selectup dl {
+  top: auto;
+  bottom: 44px;
+}
+
+.layui-form-checkbox {
+  height: 32px;
+  line-height: 32px;
+}
+
+.layui-form-checkbox i {
+  height: 30px;
+}
+
+.layui-form-item .layui-form-checkbox[lay-skin=primary] {
+  margin-top: 12px;
+  padding-left: 24px;
+}
+
+.layui-tree-set .layui-form-checkbox[lay-skin=primary] {
+  padding-left: 24px;
+}
+
+.layui-form-checkbox[lay-skin=primary] {
+  min-height: 16px;
+  min-width: 16px;
+}
+
+.layui-form-checkbox[lay-skin=primary] span {
+  line-height: 16px;
+}
+
+.layui-form-checkbox[lay-skin=primary] i {
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+}
+
+.layui-form-radio > i {
+  font-size: 18px;
+}
+
+.layui-form-item .layui-input-inline {
+  margin-right: 8px;
+}
+
+.layui-form-item {
+  font-size: 0;
+  margin-bottom: 16px;
+}
+
+.layui-form-item > * {
+  font-size: 14px;
+}
+
+.layui-form-item .layui-inline {
+  margin-bottom: 0;
+  margin-right: 8px;
+}
+
+.layui-form-checkbox {
+  margin-right: 12px;
+}
+
+.layui-form-mid {
+  margin-right: 8px;
+}
+
+.layui-laydate-header {
+  line-height: 32px !important;
+  padding: 8px 72px 4px !important;
+}
+
+.laydate-set-ym span, .layui-laydate-header i {
+  padding: 0 4px;
+}
+
+.layui-laydate-content {
+  padding: 8px !important;
+}
+
+.layui-laydate-content td, .layui-laydate-content th {
+  width: 40px !important;
+  height: 32px !important;
+  padding: 4px !important;
+}
+
+.layui-laydate-footer {
+  line-height: 24px !important;
+}
+
+.layui-laydate-footer {
+  height: 48px !important;
+  line-height: 24px !important;
+  padding: 8px 16px !important;
+}
+
+.laydate-footer-btns span {
+  height: 24px !important;
+  line-height: 24px !important;
+  padding: 0 8px !important;
+}
+
+.laydate-footer-btns {
+  right: 12px !important;
+  top: 12px !important;
+}
+
+.layui-laydate-range {
+  width: 590px !important;
+}
+
+.layui-laydate-main {
+  width: 294px !important;
+}
+
+.laydate-time-list ol li {
+  padding-left: 32px !important;
+  line-height: 32px !important;
+}
+
+.layui-nav {
+  padding: 0 16px;
+}
+
+.layui-nav .layui-nav-item {
+  line-height: 64px;
+}
+
+.layui-nav .layui-nav-item a {
+  padding: 0 24px;
+}
+
+.layui-nav-child, .layui-nav-child dd {
+  line-height: 32px;
+}
+
+.layui-nav-tree {
+  padding: 0;
+}
+
+.layui-nav-tree .layui-nav-item a {
+  height: 40px;
+  line-height: 40px;
+}
+
+.layui-breadcrumb span[lay-separator] {
+  margin: 0 8px;
+}
+
+.layui-tab {
+  margin: 8px 0;
+}
+
+.layui-tab-title {
+  height: 39px;
+}
+
+.layui-tab-title .layui-this:after {
+  height: 40px;
+}
+
+.layui-tab-title li {
+  min-width: 64px;
+  padding: 0 8px;
+}
+
+.layui-tab-content {
+  padding: 8px;
+}
+
+.layui-tab-title li .layui-tab-close {
+  margin-left: 8px;
+}
+
+.layui-tab-more {
+  padding-right: 32px;
+}
+
+.layui-tab-bar {
+  box-sizing: border-box;
+  width: 32px;
+}
+
+.layui-progress {
+  height: 8px;
+}
+
+.layui-progress-bar {
+  height: 8px;
+}
+
+.layui-progress-big, .layui-progress-big .layui-progress-bar {
+  height: 16px;
+  line-height: 16px;
+}
+
+.layui-card-header {
+  height: 49px;
+  padding: 0 16px;
+  line-height: 49px;
+}
+
+.layui-card-body {
+  padding: 8px 16px;
+}
+
+.layui-col-space16 {
+  margin: -8px;
+}
+
+.layui-col-space16 > * {
+  padding: 8px;
+}
+
+.layui-colla-title {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 16px 0 40px;
+}
+
+.layui-colla-content {
+  padding: 8px 16px;
+  line-height: 24px;
+}
+
+p {
+  line-height: 24px;
+}
+
+.layui-badge, .layui-badge-dot, .layui-badge-rim {
+  padding: 0 8px;
+}
+
+.layui-badge-dot {
+  padding: 0;
+}
+
+.layui-btn .layui-badge, .layui-btn .layui-badge-dot {
+  margin-left: 8px;
+}
+
+.layui-nav .layui-badge, .layui-nav .layui-badge-dot {
+  margin: -8px 8px 0;
+}
+
+.layui-tab-title .layui-badge, .layui-tab-title .layui-badge-dot {
+  left: 8px;
+}
+
+.layui-timeline {
+  padding-left: 8px;
+}
+
+.layui-timeline-content {
+  padding-left: 24px;
+}
+
+.layui-text {
+  line-height: 24px;
+}
+
+.layui-timeline-title {
+  margin-bottom: 8px;
+}
+
+.layui-text ul {
+  padding: 4px 0 4px 16px;
+}
+
+.layui-text ul li {
+  margin-top: 4px;
+}
+
+.layui-timeline-item {
+  padding-bottom: 16px;
+}
+
+.layui-table td, .layui-table th {
+  padding: 8px 16px;
+  min-height: 24px;
+  line-height: 24px;
+}
+
+.layui-table, .layui-table-view {
+  margin: 8px 0;
+}
+
+.layui-table[lay-size=lg] td, .layui-table[lay-size=lg] th {
+  padding: 16px 24px;
+}
+
+.layui-table[lay-size=sm] td, .layui-table[lay-size=sm] th {
+  padding: 4px 8px;
+}
+
+.layui-elem-quote {
+  padding: 16px;
+  margin-bottom: 8px;
+}
+
+.layui-elem-quote {
+  line-height: 24px;
+}
+
+.layui-elem-field {
+  margin-bottom: 8px;
+  margin-left: 0;
+}
+
+.layui-field-title {
+  margin: 8px 0 16px;
+}
+
+.layui-elem-field legend {
+  margin-left: 24px;
+  padding: 0 8px;
+}
+
+hr {
+  margin: 8px 0;
+}
+
+.layui-layer-title {
+  height: 40px !important;
+  line-height: 40px !important;
+}
+
+.layui-layer-btn {
+  padding: 0 16px 16px !important;
+}
+
+.layui-layer-iframe .layui-layer-btn, .layui-layer-page .layui-layer-btn {
+  padding-top: 8px !important;
+}
+
+.layui-layer-btn a {
+  height: 30px !important;
+  line-height: 30px !important;
+  margin: 0 4px !important;
+  padding: 0 16px !important;
+}
+
+.layui-table-view .layui-table td, .layui-table-view .layui-table th {
+  padding: 8px 0;
+}
+
+.layui-table-view .layui-table th {
+  font-weight: bold;
+}
+
+.layui-table-cell {
+  height: 32px;
+  line-height: 32px;
+}
+
+.layui-table-page .layui-laypage a, .layui-table-page .layui-laypage span {
+  height: 24px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.layui-table-page .layui-laypage a, .layui-table-page .layui-laypage span.layui-laypage-curr {
+  padding: 0 8px;
+}
+
+.layui-table-page {
+  height: auto;
+  padding: 8px;
+}
+
+.layui-table-page > div {
+  height: 24px;
+}
+
+.layui-table-page .layui-laypage button, .layui-table-page .layui-laypage input {
+  height: 24px;
+  line-height: 24px;
+}
+
+.layui-laypage input {
+  padding: 0 4px;
+  margin: 0 8px;
+}
+
+.layui-table-page .layui-laypage button {
+  padding: 0 8px;
+  margin-left: 8px;
+}
+
+.layui-laypage .layui-laypage-count, .layui-laypage .layui-laypage-limits, .layui-laypage .layui-laypage-refresh, .layui-laypage .layui-laypage-skip {
+  margin-right: 8px;
+}
+
+.layui-table-page select {
+  height: 22px;
+  line-height: 22px;
+  padding: 0 4px;
+}
+
+.layui-table-view .layui-form-checkbox[lay-skin=primary] i {
+  width: 16px;
+  height: 16px;
+}
+
+.layui-laypage a, .layui-laypage span {
+  height: 30px;
+  line-height: 32px;
+  padding: 0;
+  min-width: 32px;
+}
+
+.layui-laypage a.layui-laypage-prev, .layui-laypage a.layui-laypage-next {
+  padding: 0 16px;
+}
+
+.layui-laypage a, .layui-laypage span {
+  margin: 0 4px;
+}
+
+.layui-laypage select {
+  height: 22px;
+  padding: 0 4px;
+}
+
+.layui-laypage .layui-laypage-skip {
+  height: 32px;
+  line-height: 32px;
+  padding-left: 8px;
+}
+
+.layui-laypage button, .layui-laypage input {
+  height: 30px;
+  line-height: 32px;
+}
+
+.layui-laypage .layui-laypage-count, .layui-laypage .layui-laypage-limits, .layui-laypage .layui-laypage-refresh, .layui-laypage .layui-laypage-skip {
+  margin-left: 8px;
+}
+
+.layui-laypage button {
+  width: 40px;
+  padding: 0;
+  margin-left: 12px;
+  height: 32px;
+}
+
+.layui-laypage input {
+  margin-right: 12px;
+}
+
+.layui-laypage .layui-laypage-count {
+  padding: 0 8px;
+}
+
+.layui-upload-list {
+  margin: 8px 0;
+}
+
+.layui-upload-img {
+  width: 96px !important;
+  height: 96px !important;
+  margin: 0 8px 8px 0 !important;
+}
+
+.layui-text em, .layui-word-aux {
+  padding: 8px !important;
+}
+
+.layui-upload-drag {
+  padding: 32px;
+}
+
+.layui-colorpicker {
+  width: 22px;
+  height: 22px;
+  padding: 4px;
+  line-height: 20px;
+}
+
+.layui-colorpicker.layui-colorpicker-lg {
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+}
+
+.layui-slider {
+  height: 4px;
+}
+
+.layui-slider-wrap {
+  width: 32px;
+  height: 32px;
+  top: -14px;
+}
+
+.layui-rate {
+  padding: 8px;
+}
+
+.layui-rate li i.layui-icon {
+  margin-right: 8px;
+}
+
+.layui-carousel-arrow {
+  margin-top: -16px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+}
+
+.layui-carousel[lay-arrow=always] .layui-carousel-arrow {
+  left: 16px;
+}
+
+.layui-carousel:hover .layui-carousel-arrow[lay-type=add], .layui-carousel[lay-arrow=always] .layui-carousel-arrow[lay-type=add] {
+  right: 16px;
+}
+
+.layui-carousel-ind ul {
+  padding: 4px;
+}
+
+.layui-carousel-ind li {
+  width: 8px;
+  height: 8px;
+  margin: 0 4px;
+}
+
+.layui-fixbar li {
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+}
+
+.layui-code-view {
+  border-left-width: 4px !important;
+}
+
+.layui-code-h3 {
+  padding: 0 8px !important;
+}
+
+.gui-list li .gui-info {
+  margin-right: 8px;
+}
+
+.gui-list-pic .gui-list-item {
+  padding: 40px 8px 16px;
+}
+
+.gui-list-pic .gui-list-item .gui-conts h4 {
+  margin-bottom: 16px;
+}
+
+.gui-list-pic .gui-list-item .gui-p2 {
+  height: 32px;
+  line-height: 16px;
+  margin-bottom: 16px;
+}
+
+.gui-list-pic .gui-list-item .gui-conts .gui-text-info li {
+  padding: 0 8px;
+  line-height: 16px;
+}
+
+.gui-list-pic .gui-list-item .gui-conts .gui-text-info {
+  line-height: 16px;
+}
+
+.gui-list-tagpic .gui-tag-wrap {
+  margin-top: 8px;
+}
+
+.gui-lst-item h3 {
+  padding: 4px 0;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.gui-lst li {
+  padding: 8px 16px;
+}
+
+.gui-lst-item .gui-dtl-box p {
+  padding: 16px;
+}
+
+.gui-list li {
+  line-height: 39px;
+}
+
+.gui-step-body .step-header li p {
+  margin-top: 16px;
+}
+
+.step-bar {
+  height: 8px;
+  top: 24px;
+}
+
+.gui-notice li {
+  line-height: 32px;
+  padding: 0 8px;
+}
+
+.gui-notice-b li {
+  padding: 8px;
+}
+
+.gui-table-info th, .gui-table-info td {
+  padding: 8px;
+  line-height: 24px;
+}
+
+.gui-table th, .gui-table td {
+  padding: 16px 8px;
+  line-height: 16px;
+}
+
+.gui-table td .gui-opr-btn {
+  padding: 0 8px;
+  line-height: 22px;
+  margin: 4px;
+}
+
+.gui-table .gui-content-wrap .gui-opr-btn {
+  margin-top: -12px;
+}
+
+.gui-input {
+  height: 48px;
+  line-height: 48px;
+}
+
+.gui-table .layui-form .layui-input {
+  height: 48px;
+  line-height: 48px;
+}
+
+.layui-tree-iconClick {
+  margin: 0 8px;
+}
+
+/*# sourceMappingURL=size.css.map */
