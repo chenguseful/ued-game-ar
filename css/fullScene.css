@@ -29,10 +29,12 @@ body {
     height: 56px;
     background: transparent;
     box-shadow: none;
+    overflow: hidden;
 }
 
 .mui-title {
-    top: 8px;
+    height: 56px;
+    line-height: 56px;
     text-align: left;
     font-size: 20px;
     letter-spacing: 1px;
@@ -40,8 +42,10 @@ body {
 }
 
 .mui-icon {
+    top: 50%;
     color: #FFFFFF;
     line-height: 44px;
+    transform: translateY(-50%);
 }
 
 .full-point {
