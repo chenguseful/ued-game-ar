@@ -1,57 +1,12 @@
-html,
-body {
-    width: 100%;
-    height: 100%;
-}
-
-@font-face {
-    font-family: 'YouSheBiaoTiHei';
-    src: url('../fonts/YouSheBiaoTiHei-2.ttf');
-}
-
-.wrap {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-#container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.mui-bar {
-    position: relative;
-    height: 56px;
-    background: transparent;
-    box-shadow: none;
-    overflow: hidden;
-}
-
-.mui-title {
-    height: 56px;
-    line-height: 56px;
-    text-align: left;
-    font-size: 20px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-}
-
-.mui-icon {
-    top: 50%;
-    color: #FFFFFF;
-    line-height: 44px;
-    transform: translateY(-50%);
-}
-
 .full-point {
+    display: block;
     color: #FFFFFF;
     cursor: pointer;
     z-index: 9!important;
+}
+
+.full-point:focus {
+    color: #FFFFFF;
 }
 
 .full-point:after {

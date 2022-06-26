@@ -83,7 +83,7 @@ function init() {
     window.addEventListener('resize', onWindowResize, false);
 }
 
-function loadFullScene(url) {
+var loadFullScene = function (url) {
     var geometry = new THREE.SphereBufferGeometry(500, 60, 40);
     geometry.scale(-1, 1, 1);
 
@@ -94,11 +94,15 @@ function loadFullScene(url) {
 
     mesh = new THREE.Mesh(geometry, material);
     scene.add(mesh);
+
+    setTimeout(() => {
+        $('.loader-box').addClass('hidden');
+    }, 4000);
 }
 
 window.loadFullScene = loadFullScene
 
-function loadText(id, position) {
+var loadText = function (id, position) {
     var text = document.getElementById(id);
     var label = new CSS2DObject(text);
     label.position.set(...position);

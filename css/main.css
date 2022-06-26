@@ -1,0 +1,16 @@
+.wrap {
+    background: url('../images/room.png') no-repeat center center;
+    background-size: 100% auto;
+}
+
+.wrap-base {
+    position: absolute;
+    top: 50%;
+    width: 104%;
+    transform: translate(-4%, -24%);
+}
+
+.wrap-base img {
+    width: 100%;
+    height: auto;
+}

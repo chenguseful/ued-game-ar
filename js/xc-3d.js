@@ -15,7 +15,7 @@ function init() {
     scene = new THREE.Scene();
 
     camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 100000);
-    camera.position.set(0, 0, 48);
+    camera.position.set(16, 0, 40);
 
     controls = new OrbitControls(camera, container);
     controls.maxPolarAngle = 1.5
@@ -62,8 +62,9 @@ function loadModel() {
                 .setPath('../data/xc/')
                 .load('xc.obj', function (object) {
                     const obj = object
-                    obj.position.y = -6
+                    obj.position.y = -5.6
                     scene.add(obj);
+                    $('.loader-box').addClass('hidden');
                 });
         });
     new MTLLoader()
@@ -75,7 +76,7 @@ function loadModel() {
                 .setPath('../data/xc/')
                 .load('mz.obj', function (object) {
                     const obj = object
-                    obj.position.y = -6
+                    obj.position.y = -5.6
                     obj.traverse(e => {
                         e.material = new THREE.MeshPhongMaterial({
                             color: '#333333',

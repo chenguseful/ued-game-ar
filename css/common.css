@@ -13,21 +13,7 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url('../images/room.png') no-repeat center center;
-    background-size: 100% auto;
     overflow: hidden;
-}
-
-.wrap-base {
-    position: absolute;
-    top: 50%;
-    width: 104%;
-    transform: translate(-4%, -24%);
-}
-
-.wrap-base img {
-    width: 100%;
-    height: auto;
 }
 
 #container {
@@ -46,6 +32,17 @@ body {
     overflow: hidden;
 }
 
+.mui-bar::after {
+    content: '';
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    width: 28px;
+    height: 28px;
+    background: url('../images/weather.png') no-repeat center center;
+    background-size: 100% auto;
+}
+
 .mui-title {
     height: 56px;
     line-height: 56px;
@@ -60,4 +57,171 @@ body {
     color: #FFFFFF;
     line-height: 44px;
     transform: translateY(-50%);
+}
+
+.user-box {
+    position: absolute;
+    top: 64px;
+    left: 16px;
+}
+
+.user-photo {
+    text-align: center;
+}
+
+.user-photo img {
+    margin-bottom: 8px;
+    width: 40px;
+    height: auto;
+}
+
+.user-photo p {
+    padding: 0 6px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #FFFFFF;
+    background: #007AFF;
+    border-radius: 10px;
+}
+
+.user-box ul {
+    position: absolute;
+    top: -8px;
+    left: 0;
+    padding: 0 12px;
+    width: 276px;
+    background: rgba(59, 70, 91, 0.87);
+    border-radius: 44px;
+    overflow: hidden;
+}
+
+.user-box ul li {
+    float: left;
+    padding: 8px 12px 0;
+}
+
+.user-photo .user-type-2 {
+    background: #F0A45E;
+}
+
+.user-photo .user-type-3 {
+    background: #3f4c79;
+}
+
+.left-menu {
+    position: absolute;
+    top: 156px;
+    left: 24px;
+}
+
+.left-menu-item {
+    display: block;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.left-menu-item img {
+    margin-bottom: 10px;
+    width: 28px;
+    height: auto;
+}
+
+.left-menu-item p {
+    color: #FFFFFF;
+}
+
+.bottom-menu {
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    bottom: 32px;
+}
+
+.bottom-menu-item {
+    float: left;
+    position: relative;
+    width: 25%;
+    text-align: center;
+}
+
+.bottom-menu-item img {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 28px;
+    height: auto;
+}
+
+.bottom-menu-item:first-child img {
+    width: 56px;
+}
+
+.bottom-menu-item p {
+    color: #FFFFFF;
+}
+
+.loader-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    z-index: 99;
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 176px;
+    height: 80px;
+}
+
+.loader::before {
+    content: "";
+    position: absolute;
+    left: 60px;
+    bottom: 18px;
+    width: 36px;
+    height: 36px;
+    background: url('../images/gear.png') no-repeat;
+    background-size: 100% 100%;
+    -webkit-animation: rotationBack 3s linear infinite;
+    animation: rotationBack 3s linear infinite;
+}
+
+.loader::after {
+    content: "";
+    position: absolute;
+    left: 94px;
+    bottom: 15px;
+    width: 24px;
+    height: 24px;
+    background: url('../images/gear.png') no-repeat;
+    background-size: 100% 100%;
+    animation: rotationBack 4s linear infinite reverse;
+}
+
+@keyframes rotationBack {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.mui-toast-message {
+    width: 50%;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.64);
+}
+
+.hidden {
+    display: none;
 }

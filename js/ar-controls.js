@@ -58,22 +58,6 @@ var init = function() {
 
 window.init = init
 
-function loadModel() {
-    new MTLLoader()
-        .setPath('../data/xc/')
-        .load('xc.mtl', function (materials) {
-            materials.preload();
-            new OBJLoader()
-                .setMaterials(materials)
-                .setPath('../data/xc/')
-                .load('xc.obj', function (object) {
-                    const obj = object
-                    obj.position.y = -6
-                    scene.add(obj);
-                });
-        });
-}
-
 function loadLabel() {
     var text = document.getElementById('xc');
     var label = new CSS2DObject(text);
